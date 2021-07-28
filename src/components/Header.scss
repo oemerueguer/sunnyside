@@ -1,3 +1,16 @@
-.navbar {
+.section-banner{
+    position: relative;
     width: 100vw;
+    height: 100vh;
+    background-image: url('./img/image-header.jpg');
+    background-position: center center;
+    background-size: contain;
+}
+nav {
+    ul{
+        list-style: none;
+    }
+    li {
+        list-style: none;
+    }
 }
