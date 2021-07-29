@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:wght@700;900&display=swap");
+$font-title: Fraunces, sans-serif;
+
+.container {
+    display: flex;
+ .info-box {
+     width: 49%;
+ }
+ .image-box {
+    width: 49%;
+}
+ h1 {
+     padding-left: 10%;
+     text-align: left;
+     font-family: $font-title;
+ }
+ p {
+    color: var(--dark-grayish-blue);
+ }
+ .Btn-yellow {
+    font-family: $font-title;
+
+ }   
+}
