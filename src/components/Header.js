@@ -11,12 +11,14 @@ export default function Header() {
             <div className="Logo">
                 <img src={Logo} alt="Logo" />
             </div>
+           <div className="item-group"> 
             <ul>
                 <li>About</li>
                 <li>Services</li>
                 <li>Projects</li>
                 <li>Contact</li>
             </ul>
+            </div>
         </div>
         </div>
 
