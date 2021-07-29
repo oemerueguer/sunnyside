@@ -3,6 +3,7 @@ import Header from "./Header";
 import Brand from "./Branding";
 import Audience from "./Audience";
 import Design from "./Design";
+import Testimonial from "./Testimonial";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <Brand />
       <Audience />
       <Design />
+      <Testimonial />
     </div>
   );
 }
