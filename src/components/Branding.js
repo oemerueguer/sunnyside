@@ -7,6 +7,7 @@ export default function Branding() {
     <>
       <div className="container">
         <div className="info-box">
+          <div className="info-text">  
           <h1>Transform your <br/> brand</h1>
           <p>
             We are full-service creative agency specializing in helping brands
@@ -14,6 +15,7 @@ export default function Branding() {
             most of the marketing for you.
           </p>
           <div className="Btn-yellow">LEARN MORE</div>
+        </div>
         </div>
         <div className="image-box">
             <img src={Egg} alt="Egg with yellow background" />

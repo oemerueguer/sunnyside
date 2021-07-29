@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:wght@700;900&display=swap");
+$font-title: Fraunces, sans-serif;
+
+.flex-container {
+  display: flex;
+  width: 100vw;
+  .info-graphic {
+    position: relative;
+    width: 50%;
+    height: 600px;
+    background-image: url("./img/image-graphic-design.jpg");
+    background-repeat: no-repeat;
+    color: var(--dark-desaturated-cyan);
+  }
+  .info-photo {
+    position: relative;
+    width: 50%;
+    height: 600px;
+    background-image: url("./img/image-photography.jpg");
+    background-repeat: no-repeat;
+    color: var(--dark-desaturated-cyan);
+  }
+  .info-graphic img {
+    width: 100%;
+    background-size: contain;
+    background-position: center;
+  }
+  .info-photo img {
+    width: 100%;
+    background-size: contain;
+    background-position: center;
+  }
+  .info-text {
+      margin-top: 60%;
+      padding: 0 10% 0 15%;
+      text-align: center;
+      h1 {
+          padding-left: 10%;
+      }
+      p {
+          padding-top: 5%;
+          padding-left: 13%;
+      }
+  }
+}

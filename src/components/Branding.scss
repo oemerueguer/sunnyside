@@ -2,23 +2,50 @@
 $font-title: Fraunces, sans-serif;
 
 .container {
-    display: flex;
- .info-box {
-     width: 49%;
- }
- .image-box {
-    width: 49%;
-}
- h1 {
-     padding-left: 10%;
-     text-align: left;
-     font-family: $font-title;
- }
- p {
-    color: var(--dark-grayish-blue);
- }
- .Btn-yellow {
+  display: flex;
+  width: 100vw;
+  margin: 0;
+  .info-box {
+    width: 50%;
+  }
+  .image-box{
+    width: 50%;
+    margin:0;
+  }
+  img {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;    
+  }
+  .info-text {
+    position: relative;
+    padding-top: 25%;
+  }
+  h1 {
+    padding-left: 10%;
+    text-align: left;
     font-family: $font-title;
-
- }   
+  }
+  p {
+    color: var(--dark-grayish-blue);
+    padding: 0 10% 2% 10%;
+  }
+  .Btn-yellow {
+    font-family: $font-title;
+    text-decoration: underline 5px hsla(51, 100%, 49%, 0.3);
+    cursor: pointer;
+    padding-left: 10%;
+  }
+  .Btn-yellow:hover {
+    text-decoration: underline 5px hsla(51, 100%, 49%, 1);
+  }
+  .Btn-softRed {
+    font-family: $font-title;
+    text-decoration: underline 5px hsla(7, 99%, 70%, 0.6);
+    cursor: pointer;
+    padding-left: 10%;
+  }
+  .Btn-softRed:hover {
+    text-decoration: underline 5px hsla(7, 99%, 70%, 1);
+  }
 }
