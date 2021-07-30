@@ -5,6 +5,7 @@ import Audience from "./Audience";
 import Design from "./Design";
 import Testimonial from "./Testimonial";
 import Images from "./Images";
+import Footer from './Footer'
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <Design />
       <Testimonial />
       <Images />
+      <Footer />
     </div>
   );
 }

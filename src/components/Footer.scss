@@ -1,0 +1,38 @@
+$moderateCyan: #90d4c5;
+$darkCyan: #25564b;
+
+.Footer {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 350px;
+  color: white;
+  background-color: $moderateCyan;
+  .LogoFooter {
+    width: 124px;
+    height: 24px;
+    margin-top: 5%;
+    align-self: center;
+    background-image: url("./img/logo-footer.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .NavFooter {
+      display: flex;
+      flex-direction: row;
+      gap: 40px;
+      align-self: center;
+      margin-top: 5%;
+      margin-bottom: 10%;
+  }
+  li {
+      list-style: none;
+  }
+  .nav-item-footer {
+      text-decoration: none;
+      color: $darkCyan;
+  }
+  .nav-item-footer:hover {
+      color: white;
+  }
+}
