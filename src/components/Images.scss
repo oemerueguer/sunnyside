@@ -6,6 +6,7 @@
   .image {
     width: 25%;
     height: 447px;
+    flex-wrap: wrap;
     background-size: cover;
     background-repeat: no-repeat;
   }
@@ -20,5 +21,30 @@
   }
   .sugar {
     background-image: url("./img/image-gallery-sugarcubes.jpg");
+  }
+}
+
+@media (max-width: 780px) {
+  #gallery {
+    display: flex;
+    .image {
+      width: 50%;
+      height: 447px;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+    .milk {
+      background-image: url("./img_mobile/image-gallery-milkbottles.jpg");
+    }
+    .orange {
+      background-image: url("./img_mobile/image-gallery-orange.jpg");
+    }
+    .waffle {
+      background-image: url("./img_mobile/image-gallery-cone.jpg");
+    }
+    .sugar {
+      background-image: url("./img_mobile/image-gallery-sugar-cubes.jpg");
+    }
   }
 }

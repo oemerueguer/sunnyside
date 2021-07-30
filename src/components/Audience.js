@@ -1,13 +1,11 @@
 import React from "react";
 import "./Branding.scss";
-import Glass from "./img/image-stand-out.jpg";
 
 export default function Audience() {
   return (
     <>
       <div className="container">
-        <div className="image-box">
-          <img src={Glass} alt="Standout with rosa background" />
+        <div className="image-box-aud">
         </div>
         <div className="info-box">
           <div className="info-text">

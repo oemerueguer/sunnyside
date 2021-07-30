@@ -95,3 +95,9 @@ $font-heading: Fraunces, sans-serif;
     margin-left: 49%;
     margin-top: 7%; 
  }
+
+ @media (max-width: 780px) {
+     .section-banner {
+         background-image: url('./img_mobile/image-header.jpg');
+     }
+ }

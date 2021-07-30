@@ -8,15 +8,19 @@ $font-title: Fraunces, sans-serif;
     width: 50%;
     margin: 0;
   }
-  .image-box{
+  .image-box {
     width: 50%;
     height: 600px;
-  }
-  img {
-    width: 100%;
-    height: 100%;
+    background-image: url('./img/image-transform.jpg');
     background-repeat: no-repeat;
-    background-size: cover;    
+    background-size: cover;
+  }
+  .image-box-aud {
+    width: 50%;
+    height: 600px;
+    background-image: url('./img/image-stand-out.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   .info-text {
     position: relative;
@@ -50,5 +54,33 @@ $font-title: Fraunces, sans-serif;
   }
   .Btn-softRed:hover {
     text-decoration: underline 5px hsla(7, 99%, 70%, 1);
+  }
+}
+
+@media (max-width: 780px) {
+  .container {
+    display: block;
+    .info-box {
+      width: 100%;
+    }
+    .image-box {
+      width: 100vw;
+      height: 370px;
+      background-image:  url('./img_mobile/image-transform.jpg');
+      background-position: center center;
+      background-size: contain;
+      background-repeat: no-repeat;
+    }
+    .image-box-aud {
+      width: 100vw;
+      height: 370px;
+      background-image: url('./img/image-stand-out.jpg');
+      background-repeat: no-repeat;
+      background-size: contain;
+    }
+    .info-text {
+      padding-top: 0%;
+      height: 400px;
+    }
   }
 }
