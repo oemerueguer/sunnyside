@@ -1,0 +1,24 @@
+#gallery {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 5%;
+  .image {
+    width: 25%;
+    height: 447px;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .milk {
+    background-image: url("./img/image-gallery-milkbottles.jpg");
+  }
+  .orange {
+    background-image: url("./img/image-gallery-orange.jpg");
+  }
+  .waffle {
+    background-image: url("./img/image-gallery-cone.jpg");
+  }
+  .sugar {
+    background-image: url("./img/image-gallery-sugarcubes.jpg");
+  }
+}

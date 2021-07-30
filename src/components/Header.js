@@ -15,13 +15,13 @@ export default function Header() {
           </div>
           <div className="item-group">
             <ul>
-              <a href="/">
+              <a className="Underline" href="/">
                 <li>About</li>
               </a>
-              <a href="/">
+              <a className="Underline" href="/">
                 <li>Services</li>
               </a>
-              <a href="/">
+              <a className="Underline" href="/">
                 <li>Projects</li>
               </a>
               <a className="ContactBtn" href="/">

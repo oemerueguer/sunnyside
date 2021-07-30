@@ -28,41 +28,57 @@ $font-heading: Fraunces, sans-serif;
 }
 .Logo {
     position: relative;
-    margin-top: 18px;
+    width: 80px;
+    margin-top: 2.5%;
     cursor: pointer;
+    margin-left: 5%;
 }
 .navigation {
     display: flex;
+    flex-wrap: wrap;
     height: 80px;
     ul{
         list-style: none;
         display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10%;
+    }
+    .Underline {
+        padding-top: 1%;
+    }
+    .Underline:hover {
+        text-decoration: underline 4px hsl(0, 100%, 100%);
     }
     li {
-        width: 100px;
+        width: 80px;
         height: 30px;
         list-style: none;
         cursor: pointer;
-        padding-top: 10%;
         padding-left: 10%;
+        padding-top: 1%;
     }
     a {
+        width:100px;
+        height: 40px;
         color: white;
         text-decoration: none;
-        margin-left:10%;
         margin-top: 2%;
     }
     .item-group {
         margin-left: 30%;
     }
     .ContactBtn {
-        background-color: white;
-        border-radius: 10%;
-        color: black;
+        width: 200px;
+        height: 40px;
         font-family: $font-heading;
+        background-color: white;
+        border-radius: 20px 20px 20px 20px;
+        color: black;
+        padding: 1% 0 1% 1%;
     }
     .ContactBtn:hover {
-        background-color: #6FCFFF;
+        background-color: #77cdf5;
     }
 }
 .Heading {
