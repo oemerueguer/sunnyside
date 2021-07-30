@@ -18,8 +18,17 @@ export default function Footer() {
           </a>
         </ul>
         <div className="icon-group">
+          <div className="icon">
+            <i class="fab fa-facebook-square"></i>
+          </div>
           <div class="icon">
             <i class="fab fa-instagram"></i>
+          </div>
+          <div class="icon">
+          <i class="fab fa-twitter"></i>
+          </div>
+          <div class="icon">
+          <i class="fab fa-pinterest"></i>
           </div>
         </div>
       </div>

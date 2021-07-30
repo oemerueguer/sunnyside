@@ -23,7 +23,7 @@ $darkCyan: #25564b;
       gap: 40px;
       align-self: center;
       margin-top: 5%;
-      margin-bottom: 10%;
+      margin-bottom: 5%;
   }
   li {
       list-style: none;
@@ -35,4 +35,24 @@ $darkCyan: #25564b;
   .nav-item-footer:hover {
       color: white;
   }
+  .icon-group {
+    position: relative;  
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-self: center;
+    justify-content: center;
+    gap: 2%;
+    .icon {
+        position: relative;
+        cursor: pointer;
+        color: $darkCyan;
+    }
+    .icon:hover {
+        color: white;
+        transform: scale(1.5);
+    }
+  } 
+
 }
